@@ -15,6 +15,9 @@ This program never would have been possible without Mogzol's [ScpDriverInterface
 You can download Creator's Camera v0.2 [here](https://cloud.kalman98.net/index.php/s/6WQ8Mkc8AmZGfEX/download).
 Please keep in mind this is an alpha version, and still very buggy. (check readme for details)
 
+### Useful links
+[Report Bugs](https://github.com/CircuitLord/creatorscamera/issues)
+[Development Roadmap](https://github.com/CircuitLord/creatorscamera/projects/1)
 
 ### How do I install it?
 
