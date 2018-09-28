@@ -16,7 +16,7 @@ You can download Creator's Camera v0.2 [here](https://cloud.kalman98.net/index.p
 Please keep in mind this is an alpha version, and still very buggy. (check readme for details)
 
 ### Useful links
-[Report Bugs](https://github.com/CircuitLord/creatorscamera/issues)
+[Report Bugs/Give Cool Ideas](https://github.com/CircuitLord/creatorscamera/issues)
 
 [Development Roadmap](https://github.com/CircuitLord/creatorscamera/projects/1)
 
