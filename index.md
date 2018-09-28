@@ -13,39 +13,45 @@ This program never would have been possible without Mogzol's [ScpDriverInterface
 
 ### Where can I get it?
 You can download Creator's Camera v0.2 [here](https://cloud.kalman98.net/index.php/s/6WQ8Mkc8AmZGfEX/download).
+Please keep in mind this is an alpha version, and still very buggy. (check readme for details)
 
-You can use the [editor on GitHub](https://github.com/CircuitLord/creatorscamera/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### How do I install it?
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Random note, in this release I accidently named some of the folders CameraCreator instead of CreatorsCamera
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+1. Download the file above.
+2. Unzip it, and go to the ScpDriverInterface>DriverInstaller folder, and run DriverInstaller.exe, and install the driver. You'll need this for my program to be able to emulate a controller.
+3. Go to the CreatorsCamera folder, and run CreatorsCamera.exe
+4.  You're done! Refer to the next part for scripting tutorials.
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### How do I write scripts for it?
 
-### Jekyll Themes
+ Be sure to check the example scripts in the paths folder to learn about them :)
+    Note: capital letters are optional
+    Note: You can use newlines wherever in your script, it won't mess up anything.
+    
+    Each script starts with 3 lines
+    name:
+    desc:
+    versionMadeFor:
+    Name and desc are basically what they say, just put whatever you want to show up in the program there.
+    with versionMadeFor, put the current version of the program it's made for, in this case, 0.2
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CircuitLord/creatorscamera/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    After that comes the commands.
+    There are quite a few commands at your disposal.
+    set1x (value) //Set the value of left stick X axis, somewhere between -32767 and 32768.
+    set1y (value) //Same as last, except Y axis
+    set2x (value) //ditto
+    set2y (value)
+    lerp1x (value) (time) //Same as set command, but takes in a time value. This time defines how long it'll take to transition to the new value given. (good for smooth transitions)
+    lerp1y (value) (time) //ditto
+    lerp2x (value) (time)
+    lerp2y (value) (time)
+    
+    Note, the lerp command does not sleep by itself, so you'll have to call the sleep thing below if you want the script to wait before starting the next movement.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    sleep (MS) //Sleeps the script for a certain amount of time, in millaseconds.
+    resetall //Resets all the sticks.
