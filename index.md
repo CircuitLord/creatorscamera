@@ -2,13 +2,17 @@
 Creator's Camera is a program for content creators that allows them to make cinematics in games that don't have a keyframing system.
 
 ### I want to see it in action.
-Fair enough.
-https://www.youtube.com/watch?v=s87N4mZ9xgQ
-
+Fair enough. [Cool showcase video.](https://www.youtube.com/watch?v=s87N4mZ9xgQ)
 
 
 ### How does it work?
-Creator's Camera emulates joystick movement on a virtual controller that is detected by games. It then reads scripts that you can make to do fancy camera movements.
+Creator's Camera emulates joystick movement on a virtual controller that is detected by games. It then reads scripts that you can make to do fancy camera movements. 
+
+This program never would have been possible without Mogzol's [ScpDriverInterface](https://github.com/mogzol/ScpDriverInterface), which itself is based off Scarlet.Crush's [SCP Server Software](https://forums.pcsx2.net/Thread-XInput-Wrapper-for-DS3-and-Play-com-USB-Dual-DS2-Controller)
+
+
+### Where can I get it?
+You can download Creator's Camera v0.2 [here](https://cloud.kalman98.net/index.php/s/6WQ8Mkc8AmZGfEX/download).
 
 You can use the [editor on GitHub](https://github.com/CircuitLord/creatorscamera/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
