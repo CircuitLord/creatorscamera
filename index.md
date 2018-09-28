@@ -30,8 +30,9 @@ Random note, in this release I accidently named some of the folders CameraCreato
 ### How do I write scripts for it?
 
  Be sure to check the example scripts in the paths folder to learn about them :)
-    Note: capital letters are optional
-    Note: You can use newlines wherever in your script, it won't mess up anything.
+ 
+ Note: capital letters are optional
+ Note: You can use newlines wherever in your script, it won't mess up anything.
     
     Each script starts with 3 lines
     name:
@@ -42,8 +43,8 @@ Random note, in this release I accidently named some of the folders CameraCreato
 
     After that comes the commands.
     There are quite a few commands at your disposal.
-    set1x (value) //Set the value of left stick X axis, somewhere between -32767 and 32768.
-    set1y (value) //Same as last, except Y axis
+    *set1x (value)* //Set the value of left stick X axis, somewhere between -32767 and 32768.
+    *set1y (value)* //Same as last, except Y axis
     set2x (value) //ditto
     set2y (value)
     lerp1x (value) (time) //Same as set command, but takes in a time value. This time defines how long it'll take to transition to the new value given. (good for smooth transitions)
