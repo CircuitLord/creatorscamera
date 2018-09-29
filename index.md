@@ -38,6 +38,7 @@ Random note, in this release I accidently named some of the folders CameraCreato
  Note: capital letters are optional
  Note: You can use newlines wherever in your script, it won't mess up anything.
     
+    //To comment things out or leave notes, just put the 2 slashes in front of it.
     //Each script starts with 3 lines
     name:
     desc:
