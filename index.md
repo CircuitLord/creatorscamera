@@ -38,15 +38,15 @@ Random note, in this release I accidently named some of the folders CameraCreato
  Note: capital letters are optional
  Note: You can use newlines wherever in your script, it won't mess up anything.
     
-    Each script starts with 3 lines
+    //Each script starts with 3 lines
     name:
     desc:
     versionMadeFor:
-    Name and desc are basically what they say, just put whatever you want to show up in the program there.
-    with versionMadeFor, put the current version of the program it's made for, in this case, 0.2
+    //Name and desc are basically what they say, just put whatever you want to show up in the program there.
+    //with versionMadeFor, put the current version of the program it's made for, in this case, 0.2
 
-    After that comes the commands.
-    There are quite a few commands at your disposal.
+    //After that comes the commands.
+    //There are quite a few commands at your disposal.
     set1x (value) //Set the value of left stick X axis, somewhere between -32767 and 32768.
     set1y (value) //Same as last, except Y axis
     set2x (value) //ditto
@@ -56,7 +56,7 @@ Random note, in this release I accidently named some of the folders CameraCreato
     lerp2x (value) (time)
     lerp2y (value) (time)
     
-    Note, the lerp command does not sleep by itself, so you'll have to call the sleep thing below if you want the script to wait before starting the next movement.
+    //Note, the lerp command does not sleep by itself, so you'll have to call the sleep thing below if you want the script to wait before starting the next movement.
 
     sleep (MS) //Sleeps the script for a certain amount of time, in millaseconds.
     resetall //Resets all the sticks.
