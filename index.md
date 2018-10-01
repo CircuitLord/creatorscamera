@@ -12,7 +12,7 @@ This program never would have been possible without Mogzol's [ScpDriverInterface
 
 
 ### Where can I get it?
-You can download Creator's Camera v0.2 [here](https://cloud.kalman98.net/index.php/s/6WQ8Mkc8AmZGfEX/download).
+You can download Creator's Camera v0.2 [here](https://cloud.kalman98.net/index.php/s/6WQ8Mkc8AmZGfEX/download). (I don't suggest trying this, v0.3 is cooming very soon, and it's way better)
 Please keep in mind this is an alpha version, and still very buggy. (check readme for details)
 
 ### Useful links
